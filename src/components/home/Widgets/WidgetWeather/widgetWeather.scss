@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.widget-weather {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  margin: 25px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 18px #bfbfbf;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget-weather * {
+  margin: 2px auto;
+  text-align: center;
+}
+
+.city {
+  font-weight: bold;
+}
+
+.temperature {
+  font-size: 22px;
+}
+
+.description {
+  text-transform: uppercase;
+}
+
+.info {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 12px;
+  margin: 0 auto;
+}
